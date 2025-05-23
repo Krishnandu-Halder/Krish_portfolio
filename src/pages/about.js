@@ -56,14 +56,14 @@ const about = () => {
                 <h2 className='mb-4 text-lg font-bold uppercase dark:text-light/75 text-dark/75
                 
                 '>Biography</h2>
-                <p className='font-medium '>Hi, I’m Krishnendu Halder — a passionate Full Stack Web Developer with a creative mind for building beautiful, functional, and user-focused digital experiences. With 1 year of hands-on experience and a strong foundation in frontend and backend development,
-                     I’m always eager to explore new ideas and turn bold visions into interactive realities.</p>
+                <p className='font-medium '>Hi, I&apos;m Krishnendu Halder — a passionate Full Stack Web Developer with a creative mind for building beautiful, functional, and user-focused digital experiences. With 1 year of hands-on experience and a strong foundation in frontend and backend development,
+                     I&apos;m always eager to explore new ideas and turn bold visions into interactive realities.</p>
 
-<p className='font-medium my-4'> For me, design isn’t just about aesthetics—it’s about solving real problems and crafting smooth, 
+<p className='font-medium my-4'> For me, design isn&apos;t just about aesthetics—it&apos;s about solving real problems and crafting smooth, 
     intuitive experiences that truly connect with users. </p>
 
-<p className='font-medium'> Whether I’m building a responsive website, a dynamic web app, or a smart digital solution, I bring a deep commitment to clean design, efficient code, and human-centered thinking. 
-    I'm excited to bring my energy and skillset to your next project and help it shine.
+<p className='font-medium'> Whether I&apos;m building a responsive website, a dynamic web app, or a smart digital solution, I bring a deep commitment to clean design, efficient code, and human-centered thinking. 
+    I&apos;m excited to bring my energy and skillset to your next project and help it shine.
 </p>
                 </div>
                 <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark dark:bg-dark dark:border-light
