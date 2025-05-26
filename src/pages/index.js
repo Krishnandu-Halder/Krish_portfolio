@@ -1,3 +1,4 @@
+
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -10,6 +11,9 @@ import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect'
+
+
+
 
 
 
@@ -56,11 +60,12 @@ export default function Home() {
            Explore my latest projects and articles, showcasing my expertise in React.js and web development.
            </p>
            <div className='flex items-center self-start mt-2 lg:self-center'>
-            <Link href="/Krishnandu Halder.pdf" target={'-blank'}
+          
+            <Link href='/pdf-viewer' target={'-blank'}
             className='flex items-center bg-dark dark:bg-light dark:text-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light dark:hover:bg-dark dark:hover:text-light hover:text-dark 
             border-2 border-solid border-transparent dark:hover:border-light hover:border-dark 
             md:p-2 md:px-4 md:text-base
-            ' download={true}
+            ' 
             >Resume<LinkArrow className='w-6 ml-1'/></Link>
             <Link href="mailto:krishnandu.work@gmail.com" target={'-blank'}
             className='ml-4 text-lg font-medium capitalize text-dark dark:text-light underline

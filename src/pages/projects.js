@@ -19,7 +19,7 @@ const FeaturedProject = ({type, title , summary , img , link ,github} ) => {
 
        <article className='w-full flex items-center justify-between relative rounded-br-2xl rounded-3xl
        border border-solid dark:border-light border-dark dark:bg-dark bg-light shadow-2xl p-12 
-       lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
+       lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 sm:text-center
        '>
         <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] dark:bg-light rounded-br-3xl
      bg-dark xs:-right-2 sm:h-[102%] xs:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
@@ -32,7 +32,7 @@ const FeaturedProject = ({type, title , summary , img , link ,github} ) => {
         transition={{duration:0.2}}
         />
         </Link>
-        <div className='w-1/2 flex flex-col  items-start justify-between pl-6'>
+        <div className='w-1/2 sm:w-full flex flex-col sm:px-4  items-start justify-between pl-6'>
             <span className='text-primary dark:text-primaryDark  font-medium text-xl xs:text-base'>{type}</span>
             <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
         <h2 className='my-2 w-full text-left dark:text-light text-4xl font-bold sm:text-sm'>{title}</h2>

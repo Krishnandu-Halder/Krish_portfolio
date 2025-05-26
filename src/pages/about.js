@@ -52,17 +52,19 @@ const about = () => {
             sm:mb-8
             '/>
             <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
-                <div className='md:order-2 col-span-3 flex flex-col items-start justify-start xl:col-span-4 '>
-                <h2 className='mb-4 text-lg font-bold uppercase dark:text-light/75 text-dark/75
+                <div className='md:order-2 col-span-3 md:col-span-3 sm:col-span-8 sm:mx-auto flex flex-col items-center justify-center px-4 py-6 md:px-6 xl:col-span-4'>
+
+                {/* <div className='md:order-2 col-span-3 flex md:text-center sm:text-center flex-col items-center justify-center px-4 py-6 md:px-6 xl:col-span-4'> */}
+                <h2 className='mb-4  text-lg font-bold uppercase text-dark/75 dark:text-light/75 text-center
                 
                 '>Biography</h2>
-                <p className='font-medium '>Hi, I&apos;m Krishnendu Halder — a passionate Full Stack Web Developer with a creative mind for building beautiful, functional, and user-focused digital experiences. With 1 year of hands-on experience and a strong foundation in frontend and backend development,
+                <p className='font-medium text-lg sm:text-base leading-relaxed sm:text-center text-center'>Hi, I&apos;m Krishnendu Halder — a passionate Full Stack Web Developer with a creative mind for building beautiful, functional, and user-focused digital experiences. With 1 year of hands-on experience and a strong foundation in frontend and backend development,
                      I&apos;m always eager to explore new ideas and turn bold visions into interactive realities.</p>
 
-<p className='font-medium my-4'> For me, design isn&apos;t just about aesthetics—it&apos;s about solving real problems and crafting smooth, 
+<p className='font-medium my-4 text-lg sm:text-base leading-relaxed sm:text-center text-center'> For me, design isn&apos;t just about aesthetics—it&apos;s about solving real problems and crafting smooth, 
     intuitive experiences that truly connect with users. </p>
 
-<p className='font-medium'> Whether I&apos;m building a responsive website, a dynamic web app, or a smart digital solution, I bring a deep commitment to clean design, efficient code, and human-centered thinking. 
+<p className='font-medium my-4 text-lg sm:text-base leading-relaxed sm:text-center text-center '> Whether I&apos;m building a responsive website, a dynamic web app, or a smart digital solution, I bring a deep commitment to clean design, efficient code, and human-centered thinking. 
     I&apos;m excited to bring my energy and skillset to your next project and help it shine.
 </p>
                 </div>
